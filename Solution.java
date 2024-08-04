@@ -5,24 +5,31 @@ class Solution{
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int t=in.nextInt();
+        int a[]=new int[t];
+        int b[]=new int[t];
+        int n[]=new int[t];
+        for (int i = 0; i < t; i++) {
+            a[i]=in.nextInt();
+            b[i]=in.nextInt();
+            n[i]=in.nextInt();
+        }
+        System.out.print("\n");
         for(int i=0;i<t;i++){
-            int a = in.nextInt();
-            int b = in.nextInt();
-            int n = in.nextInt();
-            long sum=a+b;
+            
+            long sum=a[i]+b[i];
             System.out.print(sum);
-                   if (n>1) {
+                   if (n[i]>1) {
                        System.out.print(" ");
-                        for(int j=1;j<n;j++){
-            sum+=(Math.pow(2, j))*(b);
-                    if(j==n-1){
+                        for(int j=1;j<n[i];j++){
+            sum+=(Math.pow(2, j))*(b[i]);
+                    if(j==n[i]-1){
                 
-                     System.out.print(sum+"\n");}
+                     System.out.print(sum);}
                      else{
                     System.out.print(sum+" ");}
             
             }
-                   }
+                   }System.out.println();
         }
         in.close();
     }
