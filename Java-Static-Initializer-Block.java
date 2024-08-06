@@ -24,6 +24,8 @@ public class Solution {
         else{
         System.out.println(b*h);
         }
+
+        //closing the scanner class to prevent resoruce leak
         s.close();
         
 }
