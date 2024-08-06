@@ -19,8 +19,8 @@ public class Solution {
         int b=s.nextInt();
         // input heigth integer
         int h=s.nextInt();
-        if((b<=0) || (h<=0))
-            System.out.println("java.lang.Exception: Breadth and height must be positive");
+        if((b<=0) || (h<=0)){
+            System.out.println("java.lang.Exception: Breadth and height must be positive");}
         else
         System.out.println(b * h);
         s.close();
