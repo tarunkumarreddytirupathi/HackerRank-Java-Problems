@@ -21,7 +21,7 @@ public class Solution {
         }else{
             System.out.println("Wrong answer");
         }
-        //close scanner class to preveresources leak
+        //close scanner class to prevent resources leak
         s.close();
     }
 }
