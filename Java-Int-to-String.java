@@ -21,7 +21,7 @@ public class Solution {
         }else{
             System.out.println("Wrong answer");
         }
-        //close the scanner class
+        //close scanner class to
         s.close();
     }
 }
