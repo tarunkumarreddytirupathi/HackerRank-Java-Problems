@@ -13,6 +13,7 @@ public class Solution {
         double payment = scanner.nextDouble();
         scanner.close();
         
+        
         Locale INDIA = new Locale("en", "IN");//Creates a new Locale with English as the language and India as teh country
         
         
