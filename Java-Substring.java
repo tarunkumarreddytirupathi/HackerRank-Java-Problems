@@ -2,7 +2,7 @@
 
 copy the below code and execute in HackerRank
 
-mport java.io.*;
+import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
