@@ -16,6 +16,7 @@ public class Solution {
         int start = in.nextInt();
         int end = in.nextInt();
         in.close();
+        
         for (int i = start; i < end; i++) {
             System.out.print(S.charAt(i));
         }
